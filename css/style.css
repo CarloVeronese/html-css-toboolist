@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 980px;
+    background-color: white;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.main-header{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main{
+    background-color: #F6F8F9;
+    padding: 30px;
+}
+
+.main-top{
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.task{
+    background-color: #47ADF1;
+    color: white;
+    border-color: #47ADF1;
+}
+
+.section{
+    color: #D5D9DD;
+    border-color: #D5D9DD;
+    background-color: white;
+}
+
+.button{
+    border-radius: 5px;
+    height: 30px;
+}
