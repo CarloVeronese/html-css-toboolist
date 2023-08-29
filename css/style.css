@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+ul,ol{
+    list-style: none;
+    padding: 0%;
+}
+
 .container{
     margin: 0 auto;
     max-width: 980px;
@@ -14,6 +19,8 @@
 }
 
 .main-header{
+    padding: 10px;
+    padding-left: 15px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -23,7 +30,7 @@ main{
     padding: 30px;
 }
 
-.main-top{
+.main{
     padding: 10px;
     padding-left: 30px;
 }
@@ -43,4 +50,83 @@ main{
 .button{
     border-radius: 5px;
     height: 30px;
+}
+
+.top{
+    border-bottom: 2px solid #F6F8F9;
+}
+
+.li-symbol{
+    display: inline-block;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.check{
+    color: #69C2AC;
+    border-color: #69C2AC;
+}
+
+.cross{
+    color: #EF817C;
+    border-color: #EF817C;
+}
+
+.open-menu{
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.list-title{
+    height: 25px;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+
+.menu{
+    margin-bottom: 40px;
+}
+
+li{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+
+.label{
+    font-size: 10px;
+    color: white;
+    border-radius: 40px;
+    padding: 7px;
+}
+
+.editorial{
+    background-color: #47ADF1;
+}
+
+.goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A8;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #D863A0;
+}
+
+.sales{
+    background-color: #B0C926;
 }
